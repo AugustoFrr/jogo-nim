@@ -23,7 +23,7 @@ def computador_escolhe_jogada(n, m):
     
 
 def usuario_escolhe_jogada(n, m):
-    jogada = int(input("Quantas pecas você vai tirar?\n"))
+    jogada = int(input("Quantas pecas voce vai tirar?\n"))
     while jogada > m or jogada <= 0:
         print("Oops! Jogada invalida! Tente de novo.")
         jogada = int(input())
